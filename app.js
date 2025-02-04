@@ -3,10 +3,17 @@
 const cidades = [
     {nome: 'Itapevi', cor : 'red', icon : 'download.png'},
     {nome: 'Jandira', cor : 'orange', icon : 'download.png'},
-    {nome: 'Barueri', cor : 'blue', icon : 'download.png'},
+    {nome: 'Barueri', cor : 'blue', icon : 'download.png', },
     {nome: 'Osasco', cor : 'white', icon : 'download.png'},
 ]
-
+const imagens = [
+    {nome : 'Memphis', imagem: ''}
+    {nome : 'Yuri', imagem: ''},
+    {nome : 'Garro', imagem: ''},
+    {nome : 'Bidu', imagem: ''},
+    {nome : 'Talles', imagem: ''}
+    
+]
 
 
 function criarMenu(cidades) {
@@ -28,6 +35,10 @@ novoItem.appendChild(novoLink)
 novoItem.style = `--cor-hover: ${cidades.cor}`
 
 menu.appendChild(novoItem)
+}
+
+function criarCard(card){
+    const
 }
 
 cidades.forEach(criarMenu)
